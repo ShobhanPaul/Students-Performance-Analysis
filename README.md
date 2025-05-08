@@ -1,10 +1,14 @@
-# Students Performance Analysis
+# 🎓 Students Performance Analysis
 
-This project explores the **Students Performance Dataset** from Kaggle to understand how students perform based on factors like gender, parental education, diet_quality, and test preparation.
+This project explores the **Students Performance Dataset** from Kaggle to understand how students perform based on factors like gender, parental education, diet quality, and test preparation.
+
+---
 
 ## 📊 Objective
 
 To analyze patterns and insights in student scores using Python data analysis libraries and visualizations.
+
+---
 
 ## 🧰 Tools & Technologies
 
@@ -15,7 +19,9 @@ To analyze patterns and insights in student scores using Python data analysis li
 - Matplotlib
 - Jupyter Notebook
 
-## 🔍 Dataset Overview
+---
+
+## 📂 Dataset Overview
 
 The dataset includes the following columns:
 
@@ -43,7 +49,7 @@ The dataset includes the following columns:
 Here are the steps taken so far in the analysis:
 
 1. **KDE Plot** for the `age` column to understand age distribution.  
-2. **Bar Plot** comparing number of male and female students (filtered by `part_time_job`).  
+2. **Bar Plot** comparing the number of male and female students (filtered by `part_time_job`).  
 3. **Sum of Study Hours** filtered by `gender` and `part_time_job`.  
 4. **KDE Plot** of `study_hours_per_day` to check its distribution.  
 5. **Average Study Hours** across `gender` and `part_time_job`.  
@@ -52,10 +58,12 @@ Here are the steps taken so far in the analysis:
 8. **Correlation Heatmap** among all numerical columns using Seaborn.  
 9. **Bar Plot** of `netflix_hours` (summed) by `gender` and `part_time_job`.  
 10. **Joint Plot** between `study_hours_per_day` and `attendance_percentage` with `gender` as hue.  
-11. **Count Plot**: Diet quality distribution by gender.  
-12. **Bar Plot**: Avg exam scores by internet quality and gender.  
-13. **FacetGrid KDE Plot**: Distribution of exam scores by gender and part-time job.
+11. **Count Plot** showing diet quality distribution by gender.  
+12. **Bar Plot** showing average exam scores by internet quality and gender.  
+13. **FacetGrid KDE Plot** showing exam score distributions by gender and part-time job.
+
 ---
+
 ## 👨‍💻 Author
 
 **Shobhan**  
